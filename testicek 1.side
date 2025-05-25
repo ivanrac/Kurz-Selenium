@@ -1,0 +1,377 @@
+{
+  "id": "2cbb296d-bfd3-4ed5-93cd-e439ed67f453",
+  "version": "2.0",
+  "name": "testicek 1",
+  "url": "https://www.topky.sk",
+  "tests": [
+    {
+      "id": "2c214fae-d6b1-4a3b-afaa-f9455e1229d4",
+      "name": "test topky",
+      "commands": [
+        {
+          "id": "4ef72610-839f-4c66-85f8-c35ac12b3e48",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a9a13caf-635b-4b6d-915b-b5b2b5ed8338",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "550x680",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "446c4be7-534e-4fe3-885a-2dd9239227f5",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,0)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9ee42f74-02ab-406a-94cf-26b0d9a6522e",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,240.6666717529297)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "05289fd0-0f07-4353-846c-72387f87af37",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,620)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "dcf0b934-0a04-4e35-8dd8-0a34a31b1a6c",
+          "comment": "",
+          "command": "click",
+          "target": "css=.swiper-slide:nth-child(4) > .slider-link",
+          "targets": [
+            [
+              "css=.swiper-slide:nth-child(4) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Šport')])[9]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[4]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'https://sportky.zoznam.sk')])[29]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[4]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a45f8434-fc61-4f86-96b6-008d561868dd",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "css=.swiper-slide:nth-child(4) > .slider-link",
+          "targets": [
+            [
+              "css=.swiper-slide:nth-child(4) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Šport')])[9]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[4]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'https://sportky.zoznam.sk')])[29]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[4]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "889d86cb-ccbc-4218-989a-c62d12a9dec1",
+          "comment": "",
+          "command": "click",
+          "target": "css=.swiper-slide:nth-child(4) > .slider-link",
+          "targets": [
+            [
+              "css=.swiper-slide:nth-child(4) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Šport')])[9]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[4]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'https://sportky.zoznam.sk')])[29]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[4]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e7fbf184-622b-44a1-b4a4-c190f2a5f271",
+          "comment": "",
+          "command": "mouseOut",
+          "target": "css=.swiper-slide:nth-child(4) > .slider-link",
+          "targets": [
+            [
+              "css=.swiper-slide:nth-child(4) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Šport')])[9]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[4]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'https://sportky.zoznam.sk')])[29]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[4]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "693819fb-d2ec-4b58-bf97-446d4fdcfdac",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "linkText=CYKLISTIKA",
+          "targets": [
+            [
+              "linkText=CYKLISTIKA",
+              "linkText"
+            ],
+            [
+              "css=.swiper-slide:nth-child(5) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'CYKLISTIKA')])[2]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[5]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/se/21/cyklistika')])[2]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[5]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7a54acdd-5228-40c1-8c6a-31c589e6e18f",
+          "comment": "",
+          "command": "runScript",
+          "target": "window.scrollTo(0,0)",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f8797ce6-a67e-4c44-99d6-05522b7743f8",
+          "comment": "",
+          "command": "mouseOut",
+          "target": "linkText=CYKLISTIKA",
+          "targets": [
+            [
+              "linkText=CYKLISTIKA",
+              "linkText"
+            ],
+            [
+              "css=.swiper-slide:nth-child(5) > .slider-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'CYKLISTIKA')])[2]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div/div/div/div[5]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/se/21/cyklistika')])[2]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//div[5]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "55a7ba85-3b35-43ed-8071-92aa04950fac",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "css=.event:nth-child(75) .event-time",
+          "targets": [
+            [
+              "css=.event:nth-child(75) .event-time",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='main']/div[4]/div/div/a[61]/div/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[61]/div/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c04aa7f0-22ea-4e61-8768-84e3d2e16324",
+          "comment": "",
+          "command": "mouseOut",
+          "target": "css=.event:nth-child(75) .event-time",
+          "targets": [
+            [
+              "css=.event:nth-child(75) .event-time",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='main']/div[4]/div/div/a[61]/div/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[61]/div/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "74a293cb-ea22-4836-aa92-6f52cf60b27b",
+          "comment": "",
+          "command": "click",
+          "target": "css=.menu-slider-content",
+          "targets": [
+            [
+              "css=.menu-slider-content",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='main']/div/div",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//body/div[2]/div/div",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "38a6da26-acd4-42f8-88d8-7545f6528c5a",
+          "comment": "",
+          "command": "click",
+          "target": "css=#didomi-notice-agree-button > span",
+          "targets": [
+            [
+              "css=#didomi-notice-agree-button > span",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@id='didomi-notice-agree-button']/span",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[3]/span",
+              "xpath:position"
+            ],
+            [
+              "xpath=//span[contains(.,'Súhlasím')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bed8b26d-555c-4acd-8ac9-95004f94a63e",
+          "comment": "",
+          "command": "mouseOver",
+          "target": "css=.ms-hokej-2021-nav li:nth-child(3) > a",
+          "targets": [
+            [
+              "css=.ms-hokej-2021-nav li:nth-child(3) > a",
+              "css:finder"
+            ],
+            [
+              "xpath=//a[contains(text(),'Program Slovenska')]",
+              "xpath:link"
+            ],
+            [
+              "xpath=//div[@id='main']/div[3]/div/nav/ul/li[3]/a",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//a[contains(@href, 'https://sportky.zoznam.sk/s/281/program-slovenska-na-ms-v-hokeji')]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//nav/ul/li[3]/a",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "386cf639-0b0d-4a65-a1d3-21bb704d0d58",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "2c214fae-d6b1-4a3b-afaa-f9455e1229d4"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.topky.sk/"
+  ],
+  "plugins": []
+}
