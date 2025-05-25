@@ -1,0 +1,357 @@
+{
+  "id": "03abc761-d63d-411b-b213-27ab528359be",
+  "version": "2.0",
+  "name": "P02_prikazy_selenies",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "6028ddc8-66f4-441c-b643-7ebac1767218",
+    "name": "TC_001_otvorenie_web_stranok",
+    "commands": [{
+      "id": "1f515b46-4086-4320-989a-60d1b5157c1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e28b1481-ddd8-47e5-9473-374ef4b8b863",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19c0313b-7650-48b9-8204-73a6e35f0748",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/titulna-stranka",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d94cbba2-1dc3-4dba-afb3-60167964ac0c",
+      "comment": "",
+      "command": "open",
+      "target": "https://sww.selenieum.dev/",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6884446c-32b3-4d06-8c47-b5e2af37ecc1",
+    "name": "TC_002_cakanie_element_wait",
+    "commands": [{
+      "id": "077c30cd-b4b1-4bc4-8247-26617d7d785b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0721c9f-8174-4f86-afa2-bb415f9f2ac7",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c147892-9a7a-4275-afc7-4609ecd4eb1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "face"
+    }, {
+      "id": "663ce76a-6347-43bd-8722-2536c1366a50",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af471ab0-e314-4a20-84d1-fcad29fb78d1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Facebook – prihláste sa alebo sa zaregistrujte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dec0c5e-3231-4dab-8dae-51761b51b69b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Facebook – prihláste sa alebo sa zaregistrujte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "910e974c-e46f-405e-ab38-aaac20642537",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div[2]/cite", "xpath:idRelative"],
+        ["xpath=//cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://www.facebook.com › ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "078556ef-f4c0-4932-bf3e-bfae84e22c13",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div[2]/cite", "xpath:idRelative"],
+        ["xpath=//cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://www.facebook.com › ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5018e2-e890-496a-bec2-ee3036f01c4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .VuuXrf:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .VuuXrf:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aac77d82-1622-47a8-ac1a-0ba52253c623",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.fb_logo",
+      "targets": [
+        ["css=.fb_logo", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "a0e4cbdd-43d5-4ed4-a76f-77e6a792e81d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.slovensko.sk/sk/titulna-stran",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73b2f05d-7902-46dd-a838-5882868deca7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Ústredný portál verejných služieb ľuďom']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "3baf683e-ef92-49f3-88e5-14bcb00570fb",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c361369-af9e-49d8-a708-04a59e71596f",
+    "name": "TC_002_cakanie_element_wait _visibe",
+    "commands": [{
+      "id": "6e743283-3137-4a5d-a577-127452b8b0fa",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "210e3d1e-2255-4d46-8974-eeebd49956e3",
+      "comment": "",
+      "command": "///Moja poznamka zaciatok",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d274eca8-a591-4e5c-b644-e86bf05af396",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2f864c1-8792-48f1-8578-7c8001ca2782",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31ee47bc-50be-465a-bd4b-0994e024e762",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "face"
+    }, {
+      "id": "7a18e406-a0e6-4225-9d50-0b10ba24ed3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf > .wM6W7d > span",
+      "targets": [
+        ["css=#jZ2SBf > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c978c980-e1d1-44b4-85ca-691c8c43efb2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Facebook – prihláste sa alebo sa zaregistrujte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "208bba42-13cd-4b65-b389-e5689e556de8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Facebook – prihláste sa alebo sa zaregistrujte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e64731-457f-45fa-9790-1d936dce27ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div[2]/cite", "xpath:idRelative"],
+        ["xpath=//cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://www.facebook.com › ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c75c7b-d5a3-4f9d-9683-15d8db9bed4d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .qLRx3b:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div[2]/cite", "xpath:idRelative"],
+        ["xpath=//cite", "xpath:position"],
+        ["xpath=//cite[contains(.,'https://www.facebook.com › ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "233dc2be-a717-47ff-aea0-e3434d6416a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .VuuXrf:nth-child(1)",
+      "targets": [
+        ["css=.tF2Cxc:nth-child(1) > .yuRUbf:nth-child(1) .V9tjod:nth-child(1) .VuuXrf:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/span/a/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e20a0e98-27c2-4f7c-9265-d41f6d4036dd",
+      "comment": "",
+      "command": "//waitForElementVisible",
+      "target": "css=.fb_logo",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "b086985d-b53b-4113-9937-8f14980a50ca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.alza.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55bbe7bc-1c81-4790-93dc-95595991b656",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Ústredný portál verejných služieb ľuďom']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "bd61c7b3-91b2-40a1-83ce-abf89f3eb2be",
+      "comment": "",
+      "command": "echo",
+      "target": "Test uspesny",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b825be-efac-4f79-bd3a-1929e517127d",
+      "comment": "",
+      "command": "//Moja poznamka Koniec testu",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e637751-a80c-4ffe-a690-819667a9e943",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6028ddc8-66f4-441c-b643-7ebac1767218"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
